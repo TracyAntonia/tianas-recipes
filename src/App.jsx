@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+
 const searchApi = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
 function App() {
@@ -28,7 +29,13 @@ function App() {
 
   return (
     <div className="container">
-      <h2>Our Food Recipes</h2>
+      <h2>Tiana's Recipes</h2>
+      <SearchBar
+        isLoading={isLoading}
+        query={query}
+        setQuery={setQuery}
+        handleSubmit={handleSubmit}
+      />
      </div>
   )
 }
