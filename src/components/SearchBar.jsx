@@ -1,10 +1,7 @@
 import React from "react";
 
 const SearchBar = ({
-    handleSubmit,
-    query,
-    isLoading,
-    setQuery
+
 }) => {
     return (
         <form onSubmit={handleSubmit}>
