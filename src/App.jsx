@@ -31,10 +31,9 @@ function App() {
 
   return (
     <div className="container">
-    <h2>Tiana's Palace</h2>
-    <h2>Welcome to Tiana's Recipes</h2>
+  
         <p>
-          Tiana's Recepies is your go-to app for creating easy and healthy meal plans that align with your workout routines.
+          Tiana's Recipes is your go-to app for creating easy and healthy meal plans that align with your workout routines.
           Whether you are just starting your fitness journey or an experienced fitness enthusiast, our app has got you
           covered with a variety of delicious meals to help you achieve your fitness goals.
         </p>
