@@ -1,7 +1,10 @@
 
 const RecipeCard = ({ recipe }) => {
     const {
-       
+        idMeal,
+        strMeal,
+        strCategory,
+        strMealThumb,
     } = recipe;
     
     return (
