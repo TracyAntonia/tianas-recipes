@@ -4,12 +4,16 @@
 }
 
 .container {
-  background-color: #aeb3c4;
+  background-color: #c77523;
   max-width: 1000px;
   min-height: 100vh;
   margin: 30px auto;
   padding: 30px;
   border-radius: 20px;
+}
+
+h2 {
+  font-size: xx-large;
 }
 
 h1, h2, h3, p{
@@ -49,7 +53,7 @@ input:focus {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   cursor: pointer;
-  background-color: rgb(234, 237, 241);
+  background-color: rgb(224, 224, 207);
 
 }
 
@@ -63,7 +67,7 @@ input:focus {
 
 .card {
   width: 200px;
-  background-color: rgb(27, 28, 29);
+  background-color: rgb(48, 24, 1);
   margin: 10px;
   border-radius: 5px;
   padding-bottom: 10px;
@@ -83,7 +87,7 @@ input:focus {
 }
 
 a {
-  background-color: #fcf9f6;
+  background-color: #a07244;
   color: inherit;
   padding: 10px;
   border-radius: 10px;
